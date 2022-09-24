@@ -1,0 +1,89 @@
+.font24px{
+	padding: 10px;
+	width: 78%;
+	background: #4F4F4F;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 5px;
+	color: #EFEFEF;
+}
+.font24px:hover{
+	color: #757575;
+	background: #ADADAD;
+}
+.font14px{
+	margin-top: 20px;
+}
+.font14px a{
+	color: #ADADAD;
+}
+.font14px a:hover{
+	color: #515151;
+	text-decoration: underline;
+}
+
+.main{
+	width: 100%;
+	height: 676px;
+	background: #ffffff;
+	padding-top: 150px;
+}
+
+.joinus{
+	width: 60%;
+	height: 500px;
+	margin: auto;
+	display: flex;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 0px 0px 8px rgb(152, 152, 152);
+}
+.joinus .js1{
+	width: 35%;
+	background: #ffffff;
+	border-radius: 5px 0px 0px 5px;
+}
+.joinus .js1 ul li{
+	list-style: none;
+	line-height: 75px;
+}
+.joinus .js1 input{
+	padding: 5px;
+	width: 80%;
+	height: 30px;
+	border: 2px solid black;
+	border-radius: 4px;
+}
+.joinus .js1 ul .yzm{
+	width: 100%;
+	height: 60px;
+	padding-top: 15px;
+}
+.joinus .js1 ul li .yzm1{
+	width: 100px;
+	height: 30px;
+	float: left;
+	margin-left: 30px;
+}
+.joinus .js1 ul li .yzm2{
+	width: 100px;
+	height: 44px;
+	background: #828282;
+	float: left;
+	color: white;
+	line-height: 44px;
+}
+.joinus .js1 ul li .yzm2:hover{
+	width: 100px;
+	height: 44px;
+	background: #313131;
+	float: left;
+	color: white;
+	line-height: 44px;
+}
+
+.joinus .js2{
+	width: 75%;
+	border-radius: 0px 5px 5px 0px;
+	background: url(../img/joinus.png);
+}

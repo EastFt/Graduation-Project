@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main .content1 .c2 a{
+	color: #9d9d9d;
+}
+.main .content1 .c2 a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.nav{
+	width: 100%;
+	height: 50px;
+	background: black;
+	position: fixed;
+	z-index: 999;
+	opacity: 0.7;
+}
+.nav:hover{
+	opacity: 1;
+}
+.nav ul li{
+	float: left;
+	list-style: none;
+	margin: 10px;
+}
+.nav ul li a{
+	color: white;
+}
+
+
+.sidebar{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	background: #434343;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+.sidebar a{
+	padding: 5px 5px 5px 20px; 
+	text-decoration: none;
+	color: #939393;
+	display: block;
+	transition: 0.3s;
+}
+.sidebar .font24px{
+	line-height: 30px;
+	color: #9a9a9a;
+}
+.sidebar .font16px{
+	padding-left: 25px;
+}
+.sidebar .font14px{
+	padding-left: 42px;
+}
+.sidebar .font24px:hover{
+	line-height: 30px;
+	color: white;
+}
+.sidebar a:hover{
+	color: white;
+}
+
+@media  screen and (max-width: 900px) {
+	.sidebar{padding-top: 5px;}
+}
+
+.nav .right{
+	float: right;
+}
+
+.null{
+	width: 100%;
+	height: 50px;
+}
+
+.title{
+	padding: 10px;
+	width: 71.2%;
+	border-radius: 3px;
+	border: 2px solid #B0B0B0;
+	margin-left: 14.8%;
+	margin-top: 20px;
+}
+.title a{
+	color: #B0B0B0;
+}
+.title a:hover{
+	color: #000000;
+}
+.title .title2{
+	width: 100%;
+}
+.title .title2 .font14px{
+	display: flex;
+}
+.title ul{
+	width: 30%;
+	list-style: inside;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 10%;
+}
+
+.empty{
+}
+
+.more{
+	width: 5%;
+	padding: 5px;
+	margin-left: 2%;
+	border: 1px solid black;
+	text-align: center;
+}
+.more:hover{
+	background: #000000;
+	color: white;
+}
+
+.footer{
+	width: 100% -30px;
+	padding: 15px;
+	margin-top: 20px;
+	text-align: center;
+	background: #686868;
+	color: #EFEFEF;
+}
+.footer a:hover{
+	color: white;
+}
+
+.Tuis{
+	top: 225px;
+	width: 150px;
+	position: fixed;
+	z-index: 999;
+}
+.Meir{
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	color: white;
+	background: #000000;
+	opacity: 0.3;
+}
+.mr{
+	width: 100% -20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #000000;
+	display: none;
+}
+.Tuis:hover .Meir{
+	opacity: 1;
+}
+.Tuis:hover .mr{
+	border-top: 1px solid white;
+	display: block;
+}
+.Tuis .Meir a{
+	color: white;
+	font-size: 16px;
+}
+.Tuis .mr a{
+	color: #b0b0b0;
+	font-size: 12px;
+}
+
+.logo{
+	top: 500px;
+	left: 100px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	position: fixed;
+	z-index: 999;
+	background: #000000;
+	color: white;
+	opacity: 0.3;
+}
+.logo:hover{
+	animation: logo 2s infinite linear;
+	opacity: 1;
+}
+@keyframes logo{
+	0%{
+		transform: rotateZ(0deg);
+	}
+	100%{
+		transform: rotateZ(360deg);
+	}
+}
+
+.Title{
+	margin-top: 20px;
+	margin-left: 20%;
+}
+.Title a{
+	color: #B0B0B0;
+}
+.Title a:hover{
+	color: #000000;
+}
+
+.Tab{
+	width: 9%;
+	color: #B0B0B0;
+	border: 3px solid #B0B0B0;
+	text-align: center;
+	margin-left: 40%;
+	padding: 10px;
+}
+
+.music{
+	position: fixed;
+	z-index: 999;
+	width: 50px;
+	height: 180px;
+	right: 50px;
+	top: 750px;
+}
+.music ul li{
+	opacity: 0.5;
+}
+.music ul li:hover{
+	opacity: 1;
+}
+.music ul li{
+	margin-top: 5px;
+	list-style: none;
+}
+.music ul li img{
+	width: 50%;
+}
+
+button{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border: 0px solid transparent;
+	outline: none;
+}

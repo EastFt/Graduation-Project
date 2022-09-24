@@ -1,0 +1,209 @@
+.font30px{
+	width: 20%;
+	margin: auto;
+	padding: 5px;
+	border-top: 1px solid #b3b3b3;
+	border-left: 1px solid #b3b3b3;
+	border-right: 1px solid #b3b3b3;
+	color: #b3b3b3;
+}
+.font26px{
+	color: white;
+	padding: 10px;
+	background: #000000;
+}
+.font24px{
+	line-height: 50px;
+}
+.main .content2 .font24px{
+	padding: 10px;
+}
+.font18px{
+	line-height: 20px;
+	font-weight: 100;
+	color: #4a4a4a;
+	letter-spacing: 2px;
+}
+
+.Main{
+	display: flex;
+}
+
+
+.main{
+	width: 45%;
+	margin: 20px;
+	margin-left: 15%;
+}
+.main hr{
+	border: 2px solid #737373;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.main .content1{
+	width: 100% - 50px;
+	padding: 25px;
+	background: white;
+	box-shadow: 0px 0px 10px rgba(91, 91, 91, 0.5);
+	border-radius: 10px;
+}
+.main .content1 ol li{
+	padding: 10px;
+	border-left: 1px dashed #000000;
+}
+
+.tab{
+	width: 100%;
+	margin-top: 20px;
+	border-bottom: 1px solid #b3b3b3;
+}
+
+.main .content2{
+	width: 100% - 40px;
+	padding: 20px;
+	margin-top: 20px; 
+	background: white;
+	box-shadow: 0px 0px 10px rgba(91, 91, 91, 0.5);
+	border-radius: 10px;
+}
+.main .content2 table{
+	width: 100%;
+	padding: 20px;
+}
+.main .content2 table .td1{
+	width: 15%;
+}
+.main .content2 table .td2{
+	width: 35%;
+}
+
+.main .content1:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.main .content2:hover{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.main .content1  ol li:hover{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+
+
+.column{
+	width: 25%;
+	margin: 20px;
+}
+
+.column .content1{
+	width: 100%;
+	height: 400px;
+	background: url(../img/libai.png) no-repeat -250px;
+	opacity: 0.6;
+	box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.5);
+	border-radius: 10px;
+	
+}
+.column .content2{
+	width: 100% - 40px;
+	padding: 20px;
+	margin-top: 20px; 
+	background: white;
+	box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.5);
+	border-radius: 10px;
+	opacity: 0.6;
+}
+.column .content2 ol li{
+	font-size: 24px;
+	line-height: 75px;
+	list-style-position: inside;
+}
+
+.column .content3{
+	width: 100%;
+	margin-top: 20px;
+	background: white;
+	box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.5);
+	border-radius: 5px;
+	opacity: 0.5;
+}
+.column .content3 .font20px{
+	font-size: 20px;
+	line-height: 75px;
+	font-weight: 100;
+	padding: 10px;
+}
+
+.column .content5{
+	width: 100%;
+	margin-top: 20px;
+	background: #efefef;
+	box-shadow: 0px 0px 10px rgba(118, 118, 118, 0.5);
+	border-radius: 5px;
+	opacity: 0.5;
+}
+.column .content5 .font20px{
+	font-size: 20px;
+	line-height: 75px;
+	font-weight: 100;
+	padding: 10px;
+}
+.column .content5 ul li{
+	padding: 10px;
+	border: 1px solid #d3d3d3;
+	list-style: none;
+}
+.column .content5 img{
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.main .content2 .empty ul li{
+	list-style: none;
+	line-height: 40px;
+}
+.main .content2 ul{
+	padding: 2%;
+}
+.main .content2 .left{
+	width: 80%;
+}
+.main .content2 .right{
+	color: #c2c2c2;
+}
+.main .content2 .empty ul a:hover{
+	text-decoration: underline;
+}
+
+
+.column .content2 ol li a:hover{
+	text-decoration: underline;
+}
+
+.column .content1:hover{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	opacity: 1;
+}
+.column .content2:hover{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	opacity: 1;
+}
+.column .content3:hover{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	opacity: 1;
+}
+.column .content3 a:hover{
+	text-decoration: underline;
+}
+.column .content5:hover{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	opacity: 1;
+}
+.column .content5 ul li:hover{
+	background: white;
+	box-shadow: 0px 0px 20px rgb(0,0,0);
+	border: none;
+}

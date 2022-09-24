@@ -1,0 +1,27 @@
+.font30px{
+	width: 350px;
+	margin: auto;
+	margin-top: 300px;
+}
+.font30px:after{
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: bottom;
+	animation: move 4s infinite;
+	content: "\2026\2026";
+}
+@keyframes move{
+	0%{
+		width: 4px;
+	}
+	100%{
+		width: 48px;
+	}
+}
+
+.font14px{
+	width: 200px;
+	color: #737373;
+	margin: auto;
+	margin-top: 20px;
+}

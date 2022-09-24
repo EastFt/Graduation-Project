@@ -1,0 +1,72 @@
+.font18px{
+	text-align: center;
+}
+
+.main{
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.content1{
+	width: 100% -20px;
+	background: rgba(223, 223, 223, 0.5);
+	padding: 10px;
+	border-radius: 5px;
+}
+.content1 .c1{
+	width: 100% -20px;
+	margin-top: 10px;
+	background: #ffe5e6;
+	padding: 10px;
+	color: #c34648;
+	border-radius: 5px;
+}
+.content1 .c2{
+	width: 100% -20px;
+	margin-top: 10px;
+	background: #f4ffee;
+	padding: 10px;
+	color: #3a7e2f;
+	border-radius: 5px;
+}
+
+.tips{
+	margin-top: 20px;
+	width: 100% -20px;
+	padding: 10px;
+	background: rgba(136, 198, 202, 0.3);
+	border-radius: 5px;
+}
+
+.content2{
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 5px;
+	background: rgba(186, 202, 200, 0.2);
+}
+.content2 .c1{
+	width: 100% -20px;
+	padding: 10px;
+	background: rgba(136, 198, 202, 0.2);
+	border-radius: 5px;
+}
+.content2 .c2{
+	width: 100% -40px;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.content3{
+	width: 100% -30px;
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 5px;
+	background: rgba(186, 202, 200, 0.8);
+	text-align: center;
+	color: rgb(87, 165, 159);
+}
+.content3:hover{
+	background: rgba(186, 202, 200, 1);
+	color: white;
+}
